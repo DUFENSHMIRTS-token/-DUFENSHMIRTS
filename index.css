@@ -75,6 +75,7 @@ header {
     height: 100%;
     animation: enlarge 5s infinite;
     animation-duration: 5s;
+    transform-origin: bottom;
 }
   
 @keyframes enlarge {
