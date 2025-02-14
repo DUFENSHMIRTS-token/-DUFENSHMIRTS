@@ -148,9 +148,20 @@ header {
     padding: 2% 5%;
     position:absolute;
     width: 45dvw;
-    height: 7dvh;
+    height: 75px;
     top: 15px;
     left: 10px;
+}
+
+.buy {
+    color: black;
+    margin-top: 5px;
+}
+
+.token_name {
+    font-weight: bold;
+    color: black;
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -187,6 +198,16 @@ header {
 
     .margin_bottom {
         margin-bottom: 40px;
+    }
+
+    .button_buy {
+        border-width: 3px;
+        border-radius: 28px;
+        height: 180px;
+    }
+
+    .buy {
+        margin-top: 15px;
     }
 }
 
@@ -225,6 +246,10 @@ header {
     .button_buy {
         border-width: 4px;
         border-radius: 30px;
+        height: 200px;
+    }
+    .buy {
+        margin-top: 20px;
     }
 }
  
@@ -262,6 +287,11 @@ header {
     .button_buy {
         border-width: 4px;
         border-radius: 30px;
+        height: 250px;
+    }
+
+    .buy {
+        margin-top: 25px;
     }
 }
 
@@ -299,6 +329,11 @@ header {
     .button_buy {
         border-width: 5px;
         border-radius: 35px;
+        height: 300px;
+    }
+
+    .buy {
+        margin-top: 30px;
     }
 }
 
@@ -334,6 +369,11 @@ header {
     .button_buy {
         border-width: 5px;
         border-radius: 40px;
+        height: 350px;
+    }
+
+    .buy {
+        margin-top: 35px;
     }
 }
 
